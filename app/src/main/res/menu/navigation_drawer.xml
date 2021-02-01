@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/ic_logo_icon"
+            android:title="@string/homePageLabel" />
+    </group>
+
+    <item android:title="FCM">
+        <menu>
+            <group
+                android:id="@+id/group1"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item1"
+                    android:icon="@drawable/ic_torre_icon"
+                    android:title="@string/towerLable" />
+                <item
+                    android:id="@+id/item2"
+                    android:icon="@drawable/ic_museu_icon_01"
+                    android:title="@string/museumLabel" />
+                <item
+                    android:id="@+id/item3"
+                    android:icon="@drawable/ic_biblioteca_icon"
+                    android:title="@string/libraryLabel" />
+                <item
+                    android:id="@+id/item4"
+                    android:icon="@drawable/ic_musica_icon"
+                    android:title="@string/musicLabel" />
+            </group>
+        </menu>
+    </item>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/shop"
+            android:icon="@drawable/store_01"
+            android:title="@string/shopLabel" />
+        <item
+            android:id="@+id/roleta"
+            android:icon="@drawable/ic_roleta_icon"
+            android:title="@string/rouletteLabel" />
+        <item
+            android:id="@+id/def"
+            android:icon="@drawable/definitions"
+            android:title="@string/definitionsLabel" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logoutLabel" />
+    </group>
+</menu>
